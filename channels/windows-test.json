@@ -1,17 +1,17 @@
 {
-  "version": "1.0.0-windowstest.4.1",
-  "notes": "Controlled in-app Windows update test following baseline 1.0.0-windowstest.3.2. No application feature changes. Choose Later first to test deferral, then use Check for updates to explicitly install and restart. Confirm both existing recipes remain after relaunch. Public debug test build; Windows code signing and native-security validation remain unverified.",
-  "pub_date": "2026-09-18T05:23:05.426Z",
+  "version": "1.0.0-windowstest.5.1",
+  "notes": "Responsiveness test: automatic update checks stay quiet with a 15-second timeout; manual Check for updates remains available. Template source audits now begin only after Verify sources to use; pending templates remain blocked. Saved Recipes waits for complete store reads and exposes retry on failure. Browser profiling found remaining slow legacy Meal Creator hydration; Windows performance improvement is not yet verified. Public debug test build; save work before updating and confirm all three recipes after restart.",
+  "pub_date": "2026-09-19T00:51:22.620Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/nutridraft/nutridraft-desktop/releases/download/windows-update-test-v1.0.0-windowstest.4.1-8b446dd4dca946d6fed4a86938928e05429ae010/NutriDraft-windows-debug-signed-candidate-setup-1.0.0-windowstest.4.1.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTVnJWT3ozT3ZSRjNuc1UxL3kxdXJWdFNQUHpXd1dJWkRIOTBocXFKbE9rNnE3eWZEVEdNQmxxcHM3N24rVHIrN1crMmtVRTdXbmNDZWRwZEFROHdqcXM0eS9QSmFZMGd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzA4NzQ2CWZpbGU6TnV0cmlEcmFmdF8xLjAuMC13aW5kb3dzdGVzdC40LjFfeDY0LXNldHVwLmV4ZQpUQlAzOXRDQ3dSUXhlQ1FTSTRHbHNhWm5NS1htZ0VkL2w5MFNxZXhmRks5S0FaVDZtRU1JTHIvdldRYlBCdG9iYnExZFF5S05NYUV2WWNkOHRkMnFBZz09Cg=="
+      "url": "https://github.com/nutridraft/nutridraft-desktop/releases/download/windows-update-test-v1.0.0-windowstest.5.1-4b9542dfb64b304fc62fe3721c9e39476efe745d/NutriDraft-windows-debug-signed-candidate-setup-1.0.0-windowstest.5.1.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTVnJWT3ozT3ZSRjJBbEpHeTN2MU0rVWd5ek1VNVVaTmVXM1JOZEJLWHdFVmRMOGN1bVE3YkJJOGtRc0wvRU93VmY5RzgzV2JlaGhCUnhtOGZiNjJ5L05pYWNsU1o2U2dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Nzc4ODYwCWZpbGU6TnV0cmlEcmFmdF8xLjAuMC13aW5kb3dzdGVzdC41LjFfeDY0LXNldHVwLmV4ZQpFa2VrUGc2YUN2d3lxbmVkU256dm1idEFpaVpMVVhXOFpJZU83aUZJeXorR3hYWWhNZGFrM2hTa3B4RVBiRzlabkxzQjgyS09ocXgreHZjV1NKY0dBQT09Cg=="
     }
   },
   "metadata": {
     "testChannel": "https://raw.githubusercontent.com/nutridraft/nutridraft-desktop/main/channels/windows-test.json",
-    "sourceCommit": "8b446dd4dca946d6fed4a86938928e05429ae010",
-    "workflowRun": "35307709497",
+    "sourceCommit": "4b9542dfb64b304fc62fe3721c9e39476efe745d",
+    "workflowRun": "35408556355",
     "workflowAttempt": "1"
   }
 }
