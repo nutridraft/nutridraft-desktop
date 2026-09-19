@@ -1,17 +1,17 @@
 {
-  "version": "1.0.0-windowstest.7.1",
-  "notes": "Targeted responsiveness candidate: template nutrient badges now wait for explicit source verification rather than loading reference indexes while browsing Recipes. CPU/network profiling confirmed the automatic path; browser regression now verifies zero reference-index requests before Saved Recipes. Windows freeze improvement remains unverified. Existing timing controls retained for comparison. Public debug test only; production downloads remain disabled.",
-  "pub_date": "2026-09-19T04:50:12.836Z",
+  "version": "1.0.0-windowstest.8.1",
+  "notes": "Measurement-only startup follow-up. Retains the responsive 7.1 behavior and adds fixed startup phase timestamps plus bounded heartbeat-stall events to the opt-in Saved data timing report. No startup optimization, storage, enrollment, lock, or updater policy change. Record next app launch and copy report to locate the remaining startup delay. Public debug test only; production downloads remain disabled.",
+  "pub_date": "2026-09-19T06:03:28.437Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/nutridraft/nutridraft-desktop/releases/download/windows-update-test-v1.0.0-windowstest.7.1-bfed6b29ce9c2859552fe64e4b8a26cbcdf94a0b/NutriDraft-windows-debug-signed-candidate-setup-1.0.0-windowstest.7.1.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTVnJWT3ozT3ZSRjhBRFo5YWtieUtFbGtORWpmRDF5SUxiUmpqMFExZkZqWXQvaDUzL3MwbHhEVGsxVkNzcU4yd1RTUklMdFJOR3dmUHRiT3lwYjhjbEdqRlV4V2czZ0E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzkzMDgxCWZpbGU6TnV0cmlEcmFmdF8xLjAuMC13aW5kb3dzdGVzdC43LjFfeDY0LXNldHVwLmV4ZQpuS1Vlb3pGaUNocW4yeHVOWUZySXRnTWxOZ2RMZ3VCNWNuSkNmUUYyUXQ3a1V2b1JSbzFlZ2ZvdWlVZitDVlNYQ0EvN1lKcDlPWjJ2N1FPVDVmSnJCZz09Cg=="
+      "url": "https://github.com/nutridraft/nutridraft-desktop/releases/download/windows-update-test-v1.0.0-windowstest.8.1-067688d305dda599b9e26756a4083e9ab2fa2cac/NutriDraft-windows-debug-signed-candidate-setup-1.0.0-windowstest.8.1.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTVnJWT3ozT3ZSRngvaUJlQXNYeDhDV1hpeFJYb05pYWJUWHVLMmV5K1dGYnVyYXBzWDk4Tk9BWFdQdTBDZmFvWER5WDQxWWNoRlNSRzc2SXZyL2t0YnhIRUFnK0tscWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Nzk3NTE5CWZpbGU6TnV0cmlEcmFmdF8xLjAuMC13aW5kb3dzdGVzdC44LjFfeDY0LXNldHVwLmV4ZQpIQ05aUEZlZ1dLNzFZd0Rmc3VQK2NrSEkzUmF4eXUzSVJYcmpBSnA2UzNhc0pXemVJSEtVeXBJUUg0VmdqRHJxTWFYcnduV25mazNibmdKcGhkTjBEQT09Cg=="
     }
   },
   "metadata": {
     "testChannel": "https://raw.githubusercontent.com/nutridraft/nutridraft-desktop/main/channels/windows-test.json",
-    "sourceCommit": "bfed6b29ce9c2859552fe64e4b8a26cbcdf94a0b",
-    "workflowRun": "35420442244",
+    "sourceCommit": "067688d305dda599b9e26756a4083e9ab2fa2cac",
+    "workflowRun": "35423955661",
     "workflowAttempt": "1"
   }
 }
