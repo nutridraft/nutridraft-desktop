@@ -1,17 +1,17 @@
 {
-  "version": "1.0.0-windowstest.11.2",
-  "notes": "Bounded verified reference-index delivery (256 KiB chunks) to investigate Turbo startup freezes. Preserves native access and integrity checks. Windows performance improvement not yet verified.",
-  "pub_date": "2026-09-20T05:32:26.247Z",
+  "version": "1.0.0-windowstest.12.1",
+  "notes": "Windows safety candidate: preserve installed update notes and instruct manual reopening if relaunch fails; add updater failure/retry and native lock transfer regressions. Automated focused checks passed; real-device lock and interrupted-update verification remains pending.",
+  "pub_date": "2026-09-20T07:04:53.654Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/nutridraft/nutridraft-desktop/releases/download/windows-update-test-v1.0.0-windowstest.11.2-78f95138e67e515c61d4fc2c070f83276c236804/NutriDraft-windows-debug-signed-candidate-setup-1.0.0-windowstest.11.2.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTVnJWT3ozT3ZSRjlxTEswa0hzK3hWMklETGJOV2JucG9VQjRHdmJYZ0hWcEd5T1E4NWErbVVuTXh2U3lFWm9kL3VGWkxMRWEzOFVZQmtwY252eEpEc3Bla3dDeVkwMFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5ODgyMDA0CWZpbGU6TnV0cmlEcmFmdF8xLjAuMC13aW5kb3dzdGVzdC4xMS4yX3g2NC1zZXR1cC5leGUKVEtRNktkL1NwS0dnbXZNV3JoczQ3djQ2Vjk1Vk5hZlhhU2IrbmpyZUthaHpzU1FIbk1rSFhkL0FndXlmbzA0cVZBdFVSOUJxd0dHa2RVODR0RUoxREE9PQo="
+      "url": "https://github.com/nutridraft/nutridraft-desktop/releases/download/windows-update-test-v1.0.0-windowstest.12.1-89a3b285c6d8bfa6746212bcc6d018b4be8cccda/NutriDraft-windows-debug-signed-candidate-setup-1.0.0-windowstest.12.1.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTVnJWT3ozT3ZSRnlBNklreWMwUjhXdWVMRkV4K3BXMEJjbDNpK2xqNGExMjdxczN0TEpmZlVJNTF4Q1Yvck0rajJ3U3Z1T2tnUWpybnEwT1NoUU03aVhYcU9ibndlalE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5ODg3NTU3CWZpbGU6TnV0cmlEcmFmdF8xLjAuMC13aW5kb3dzdGVzdC4xMi4xX3g2NC1zZXR1cC5leGUKUTloeFkwUGRHMkFDMVJacmFQQUJ6NkFzVEhiNC9lZUQ3NHRjMGtyYy9FZ2NIbkxTalIvV0s4OGVzZjg0M21NV3ZhN0puV3hTeUN4bzhMMkxYdGJTRGc9PQo="
     }
   },
   "metadata": {
     "testChannel": "https://raw.githubusercontent.com/nutridraft/nutridraft-desktop/main/channels/windows-test.json",
-    "sourceCommit": "78f95138e67e515c61d4fc2c070f83276c236804",
-    "workflowRun": "35487203610",
-    "workflowAttempt": "2"
+    "sourceCommit": "89a3b285c6d8bfa6746212bcc6d018b4be8cccda",
+    "workflowRun": "35494224403",
+    "workflowAttempt": "1"
   }
 }
