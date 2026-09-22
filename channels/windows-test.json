@@ -1,17 +1,17 @@
 {
-  "version": "1.0.0-windowstest.12.1",
-  "notes": "Windows safety candidate: preserve installed update notes and instruct manual reopening if relaunch fails; add updater failure/retry and native lock transfer regressions. Automated focused checks passed; real-device lock and interrupted-update verification remains pending.",
-  "pub_date": "2026-09-20T07:04:53.654Z",
+  "version": "1.0.0-windowstest.14.3",
+  "notes": "Desktop session lock fix: after successful unlock, switching applications and minimizing keep the session unlocked. Explicit Lock and enabled-lock fresh startup remain protected; mobile background locking is unchanged. Includes update-recovery safety fixes. Focused automated tests passed; these changes still require Windows device verification.",
+  "pub_date": "2026-09-22T06:14:48.528Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/nutridraft/nutridraft-desktop/releases/download/windows-update-test-v1.0.0-windowstest.12.1-89a3b285c6d8bfa6746212bcc6d018b4be8cccda/NutriDraft-windows-debug-signed-candidate-setup-1.0.0-windowstest.12.1.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTVnJWT3ozT3ZSRnlBNklreWMwUjhXdWVMRkV4K3BXMEJjbDNpK2xqNGExMjdxczN0TEpmZlVJNTF4Q1Yvck0rajJ3U3Z1T2tnUWpybnEwT1NoUU03aVhYcU9ibndlalE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5ODg3NTU3CWZpbGU6TnV0cmlEcmFmdF8xLjAuMC13aW5kb3dzdGVzdC4xMi4xX3g2NC1zZXR1cC5leGUKUTloeFkwUGRHMkFDMVJacmFQQUJ6NkFzVEhiNC9lZUQ3NHRjMGtyYy9FZ2NIbkxTalIvV0s4OGVzZjg0M21NV3ZhN0puV3hTeUN4bzhMMkxYdGJTRGc9PQo="
+      "url": "https://github.com/nutridraft/nutridraft-desktop/releases/download/windows-update-test-v1.0.0-windowstest.14.3-bf2f13c60d8733868e61291dc3d8f9cc6dd2365b/NutriDraft-windows-debug-signed-candidate-setup-1.0.0-windowstest.14.3.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTVnJWT3ozT3ZSRjNHSXlUaXJ0dVdUUHJHaXN4aXE5NHV4eFhFSG9sZ3NBektpME5wMEZXa3FibTJIOW92L3lTb1lHUU93TWJEYzNUMTlNV2daenovYndlNWM5LzUzS3dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDU3Mzk3CWZpbGU6TnV0cmlEcmFmdF8xLjAuMC13aW5kb3dzdGVzdC4xNC4zX3g2NC1zZXR1cC5leGUKdjRpQUxBNzBNblZISHIrREtIZGQxd3JKdWZxMUJXdkthZjAxdFI1c3M2ZUJpUWJtMnlJT2JBeW1KL09ZMENpM1ZCRUtxVHJDT0VHaUxUd2pCNUxkRHc9PQo="
     }
   },
   "metadata": {
     "testChannel": "https://raw.githubusercontent.com/nutridraft/nutridraft-desktop/main/channels/windows-test.json",
-    "sourceCommit": "89a3b285c6d8bfa6746212bcc6d018b4be8cccda",
-    "workflowRun": "35494224403",
-    "workflowAttempt": "1"
+    "sourceCommit": "bf2f13c60d8733868e61291dc3d8f9cc6dd2365b",
+    "workflowRun": "35562541443",
+    "workflowAttempt": "3"
   }
 }
