@@ -1,17 +1,17 @@
 {
-  "version": "1.0.0-windowstest.16.1",
-  "notes": "Windows updater handoff safeguard: during updates, wait up to 10 seconds for the existing app process to exit before replacement; stop visibly if it remains running. Existing save gates, explicit consent, signature verification, and local data identity are unchanged. Focused automated checks passed. The prior transient executable write error may have other causes; resolution awaits a real Windows update test.",
-  "pub_date": "2026-09-25T06:25:32.734Z",
+  "version": "1.0.0-windowstest.17.1",
+  "notes": "Hide the web-only owner recovery panel in native desktop so Backup & Restore no longer requests /api/account from the asset origin. Local backup/import and Windows Hello are unchanged. 29 focused tests passed. Upgrade from windowstest.16.1 and real-device verification remain pending.",
+  "pub_date": "2026-09-26T06:07:20.025Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/nutridraft/nutridraft-desktop/releases/download/windows-update-test-v1.0.0-windowstest.16.1-536b0f41f1c3d0c19e02bc911266af88e2163925/NutriDraft-windows-debug-signed-candidate-setup-1.0.0-windowstest.16.1.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTVnJWT3ozT3ZSRjhVa3NSTnFvYlpDV1dmd0VuUG5GNlhQNUxCbGNibU5QUVpyTzNKbCtMbks5aWtQNkEyS2E1NXk4V3BWdEdQWElmYWpOZW02RlVvTDdOTVRRNFFmVFFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMzE3MjI2CWZpbGU6TnV0cmlEcmFmdF8xLjAuMC13aW5kb3dzdGVzdC4xNi4xX3g2NC1zZXR1cC5leGUKQUVWZjNZaldRcEZvQlRLcjFFTlExWXNSMFV3eWtZZUJ1QzFSVFRjcWt6U2dGajh5MkVZWjkzQnl5WUhvRDA4K3d0MlB3SFZCNEU5YW5vNVBwVVdGQ1E9PQo="
+      "url": "https://github.com/nutridraft/nutridraft-desktop/releases/download/windows-update-test-v1.0.0-windowstest.17.1-6c92fcecba8b7488d0ba4e4eb0270248544deca3/NutriDraft-windows-debug-signed-candidate-setup-1.0.0-windowstest.17.1.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTVnJWT3ozT3ZSRjByRTJlMDlUaG9lOFNhV3JYczk1Qkh0WWJGUFk1M1BWWGpuclZjaFlWei9jMFpZWWZSbjk5QjhZdXRoN3MzUVVobS9CY25FbTNrNVh6NS80UTI5MkFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDAyNTEzCWZpbGU6TnV0cmlEcmFmdF8xLjAuMC13aW5kb3dzdGVzdC4xNy4xX3g2NC1zZXR1cC5leGUKTmZUdmlBbkFuczM3SVphajdNanFPUTVjNnVMRkZSS253ZmxkMFYveVdXRExhcjRaOW5PSE1SSjlPOVgwSEdrWVdnTFZUS2U5UDZSYXlQU1FpZnpHQnc9PQo="
     }
   },
   "metadata": {
     "testChannel": "https://raw.githubusercontent.com/nutridraft/nutridraft-desktop/main/channels/windows-test.json",
-    "sourceCommit": "536b0f41f1c3d0c19e02bc911266af88e2163925",
-    "workflowRun": "36099781845",
+    "sourceCommit": "6c92fcecba8b7488d0ba4e4eb0270248544deca3",
+    "workflowRun": "36220638867",
     "workflowAttempt": "1"
   }
 }
