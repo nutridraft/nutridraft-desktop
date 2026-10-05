@@ -1,17 +1,17 @@
 {
-  "version": "1.0.0-windowstest.19.1",
-  "notes": "Controlled Windows update baseline A; retry with cross-platform source assertion. Manual installation selects isolated windows-test channel. No production approval.",
-  "pub_date": "2026-10-05T05:22:43.425Z",
+  "version": "1.0.0-windowstest.20.1",
+  "notes": "Controlled A-to-B updater verification from windowstest.19.1. No application feature changes. Verify cancellation, restart, retained data and enabled Windows Hello policy. No production approval.",
+  "pub_date": "2026-10-05T06:03:58.394Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/nutridraft/nutridraft-desktop/releases/download/windows-update-test-v1.0.0-windowstest.19.1-f0b4dbaf8fb13fb9198f6f413aedc51e47717e7f/NutriDraft-windows-debug-signed-candidate-setup-1.0.0-windowstest.19.1.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTVnJWT3ozT3ZSRnp3eGxPYmhaai9SOG1qKzl4aWRuc2F2TEFDcWVFdDMzNC9qdG5YR2REck5lRWdMdGFpNHMxZXY0UmlFTVgybGNvaDkzcHg4bjdPMEx2cmFLMFp1R1FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTc3NDExCWZpbGU6TnV0cmlEcmFmdF8xLjAuMC13aW5kb3dzdGVzdC4xOS4xX3g2NC1zZXR1cC5leGUKRWNXWEluSmFHcmtTVzh3bU5VVHFhOCtSRzFtNzYrNFhKTDNSakhhWVBrdEx0cDBkQjkydTRIU05jRWpsMUdNSlJVNTRrQUJFUFA5R3Z6OTBpanl4QUE9PQo="
+      "url": "https://github.com/nutridraft/nutridraft-desktop/releases/download/windows-update-test-v1.0.0-windowstest.20.1-88cc7a5c31365a632317d9ecb98f9907b922b46a/NutriDraft-windows-debug-signed-candidate-setup-1.0.0-windowstest.20.1.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTVnJWT3ozT3ZSRjkxek9HWDNidTNtSHd3ZExmV3VVZTdqNWFYS3EzSSswUFgwcGNlQnBpK3Vsc2ZsbXE0a1hVWnJiWmMwNE03cTJONWY1aEh1NXUwbWJuRFNmTUdIV2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTc5OTY1CWZpbGU6TnV0cmlEcmFmdF8xLjAuMC13aW5kb3dzdGVzdC4yMC4xX3g2NC1zZXR1cC5leGUKSUhGSjhZV0ZTUmtMcklBLzFtMkZhNHFXeDZMeXA2cVhnaW5Sb2lKSWNURTBJYVpKQlpJcldYNS9pbTkzbHhHeE04eTczeGxpU3dKbVllUWJzNnk5REE9PQo="
     }
   },
   "metadata": {
     "testChannel": "https://raw.githubusercontent.com/nutridraft/nutridraft-desktop/main/channels/windows-test.json",
-    "sourceCommit": "f0b4dbaf8fb13fb9198f6f413aedc51e47717e7f",
-    "workflowRun": "37264470997",
+    "sourceCommit": "88cc7a5c31365a632317d9ecb98f9907b922b46a",
+    "workflowRun": "37268195211",
     "workflowAttempt": "1"
   }
 }
