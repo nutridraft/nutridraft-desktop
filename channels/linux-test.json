@@ -1,18 +1,18 @@
 {
-  "version": "1.0.0-linuxtest.4.1.2",
-  "notes": "Automatic Linux tester build from source fdadc589558baa3e5ad28958df0329cee66d882b. Debug build; not production approved. Back up your data before updating. See the source commit for changes. Linux stability and app-lock limitations remain.",
-  "pub_date": "2026-10-10T00:26:17.847Z",
+  "version": "1.0.0-linuxtest.5.1.2",
+  "notes": "Automatic Linux tester build from source 6a91744c0f71778527a6352e0370c6e8f704faf7. Debug build; not production approved. Back up your data before updating. See the source commit for changes. Linux stability and app-lock limitations remain.",
+  "pub_date": "2026-10-12T02:20:08.104Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTVnJWT3ozT3ZSRjhXVGJwcnowWmhVZ1dMZzd6RENPN2UwQmRQbzUvRklGZmdYTUdIcUlJaktoMFBRYVRCb0FKMkZVcnlWSUNQSU5IZElVWmJ1WW82QjFMcEFrMjlXMkFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTkxNzY1CWZpbGU6TnV0cmlEcmFmdF8xLjAuMC1saW51eHRlc3QuNC4xLjJfYW1kNjQuQXBwSW1hZ2UKMlhBVE9OcjVxL1NuQ0dJd1F3aDZwdTFlejBVOWJmNXFjRFdoZmpQN2FtR3NEVHZvUk1wV0NyWkxIZDA4UjlrbjVhZVh3ZEVBYzdYQUxEUWdCMkFZQnc9PQo=",
-      "url": "https://github.com/nutridraft/nutridraft-desktop/releases/download/linux-update-test-v1.0.0-linuxtest.4.1.2-fdadc589558baa3e5ad28958df0329cee66d882b/NutriDraft-linux-1.0.0-linuxtest.4.1.2.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTVnJWT3ozT3ZSRjgyVEMyaWM2TGFtYnJzR04wNTR4VEY4cDc4eEJMN0ZqbHlGeTZOb0JWWHZNWlhRQUowQ1FSTlh2bjQ4MUwvTFhBUDZtNVVpTHJGSzNiUU1WMjFwNndJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNzcxNDA0CWZpbGU6TnV0cmlEcmFmdF8xLjAuMC1saW51eHRlc3QuNS4xLjJfYW1kNjQuQXBwSW1hZ2UKeVdWNWFmKy9Zd0twMHdmYVg1NnpGaTR3UW1BN3YwWTM2cFgvam51NDY1R3Y3NjJzSnh0RjZkVTkzaFl1LzREMFNzNUxKd2VPMVB4cU5SVktzYXdFQ2c9PQo=",
+      "url": "https://github.com/nutridraft/nutridraft-desktop/releases/download/linux-update-test-v1.0.0-linuxtest.5.1.2-6a91744c0f71778527a6352e0370c6e8f704faf7/NutriDraft-linux-1.0.0-linuxtest.5.1.2.AppImage"
     }
   },
   "metadata": {
-    "version": "1.0.0-linuxtest.4.1.2",
+    "version": "1.0.0-linuxtest.5.1.2",
     "stage": "B",
-    "sourceCommit": "fdadc589558baa3e5ad28958df0329cee66d882b",
-    "workflowRun": "38005884501",
+    "sourceCommit": "6a91744c0f71778527a6352e0370c6e8f704faf7",
+    "workflowRun": "38192689867",
     "workflowAttempt": "1",
     "testChannel": "https://raw.githubusercontent.com/nutridraft/nutridraft-desktop/main/channels/linux-test.json"
   }
