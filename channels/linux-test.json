@@ -1,19 +1,19 @@
 {
-  "version": "1.0.0-linuxtest.9.1.2",
-  "notes": "Automatic Linux tester build from source 709df831f94965b50ac340ccd12ae522bef26430. Debug build; not production approved. Back up your data before updating. See the source commit for changes. Linux stability and app-lock limitations remain.",
-  "pub_date": "2026-11-11T23:51:33.256Z",
+  "version": "1.0.0-linuxtest.10.2.2",
+  "notes": "Automatic Linux tester build from source dda94f1861bca4f49ff89bd84fa2bb1db6d8eb81. Debug build; not production approved. Back up your data before updating. See the source commit for changes. Linux stability and app-lock limitations remain.",
+  "pub_date": "2026-11-12T02:40:58.628Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTVnJWT3ozT3ZSRnhoNXc3Y2dsVUhLRHNlZjRqcGlsUGdRTVVFZFpLK0hMY3c4WUJwSnAvTkJFeWgvOUZEQmQ4bUhRaGxteW00UmhFUmdxcklXSnlyd3hraDZvTS85N2dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDQwODM0CWZpbGU6TnV0cmlEcmFmdF8xLjAuMC1saW51eHRlc3QuOS4xLjJfYW1kNjQuQXBwSW1hZ2UKNU9pcjZSM3JSTElyYlNic1MyenROYnVadWZZaG9YSkpKOHBKSGRwMzdabDFjRklucktEMGFyK1V3ZkRmTC9IcDY1ZFFrbDhvbFBSYVVRdlFjeTNkQnc9PQo=",
-      "url": "https://github.com/nutridraft/nutridraft-desktop/releases/download/linux-update-test-v1.0.0-linuxtest.9.1.2-709df831f94965b50ac340ccd12ae522bef26430/NutriDraft-linux-1.0.0-linuxtest.9.1.2.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTVnJWT3ozT3ZSRjUrSER1ZG1mbmFaMXFwS25mbVl4VEorZ1JPcnNmaDFSamxaT2ltWVBML3JCOERkOTRsdGMvR1o4RjhvTmMwWGRKQ2ZPSFlGRnNGNkNsaHdPaTB5MFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDUxMDI3CWZpbGU6TnV0cmlEcmFmdF8xLjAuMC1saW51eHRlc3QuMTAuMi4yX2FtZDY0LkFwcEltYWdlCmVrMEx0RzN4NWZOdUtqTHFvMGVCT0xJYVR3ejkxa3hQSW44MWswZWJNY0tOdTVCaThrOVJJdGtLM1BtOGVyL0JZR3ZndnRWN1FhdVdYV1hTdFFXVEFRPT0K",
+      "url": "https://github.com/nutridraft/nutridraft-desktop/releases/download/linux-update-test-v1.0.0-linuxtest.10.2.2-dda94f1861bca4f49ff89bd84fa2bb1db6d8eb81/NutriDraft-linux-1.0.0-linuxtest.10.2.2.AppImage"
     }
   },
   "metadata": {
-    "version": "1.0.0-linuxtest.9.1.2",
+    "version": "1.0.0-linuxtest.10.2.2",
     "stage": "B",
-    "sourceCommit": "709df831f94965b50ac340ccd12ae522bef26430",
-    "workflowRun": "43117625033",
-    "workflowAttempt": "1",
+    "sourceCommit": "dda94f1861bca4f49ff89bd84fa2bb1db6d8eb81",
+    "workflowRun": "43136441502",
+    "workflowAttempt": "2",
     "testChannel": "https://raw.githubusercontent.com/nutridraft/nutridraft-desktop/main/channels/linux-test.json"
   }
 }
